@@ -1,0 +1,31 @@
+[ {
+  "uid" : "764976138ed0bea4",
+  "name" : "接口测试数据-",
+  "time" : {
+    "start" : 1579505569199,
+    "stop" : 1579505569201,
+    "duration" : 2
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "85a63a63f83d0cc7",
+  "name" : "接口测试数据-{\"user\":1}",
+  "time" : {
+    "start" : 1579505569118,
+    "stop" : 1579505569120,
+    "duration" : 2
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b93361fe3fb7b602",
+  "name" : "接口测试数据-{\"user\":2}",
+  "time" : {
+    "start" : 1579505569131,
+    "stop" : 1579505569134,
+    "duration" : 3
+  },
+  "status" : "failed",
+  "severity" : "normal"
+} ]

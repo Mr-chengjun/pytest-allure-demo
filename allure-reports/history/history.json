@@ -1,0 +1,60 @@
+{
+  "9725f44d51264001548d81c563a8565d" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "85a63a63f83d0cc7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1579505569118,
+        "stop" : 1579505569120,
+        "duration" : 2
+      }
+    } ]
+  },
+  "64e1700204e1dece023b1d170b458949" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "764976138ed0bea4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1579505569199,
+        "stop" : 1579505569201,
+        "duration" : 2
+      }
+    } ]
+  },
+  "171460212d588426c8a7b47631ceb06f" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "b93361fe3fb7b602",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: 测试未通过，测试数据：{\"user\":2},返回结果：结果\nassert 'post' == 'get'\n  - post\n  + get",
+      "time" : {
+        "start" : 1579505569131,
+        "stop" : 1579505569134,
+        "duration" : 3
+      }
+    } ]
+  }
+}

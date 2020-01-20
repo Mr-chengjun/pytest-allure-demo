@@ -1,0 +1,52 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "DESKTOP-SIU8DJJ",
+    "children" : [ {
+      "name" : "9632-MainThread",
+      "children" : [ {
+        "name" : "接口测试数据-",
+        "uid" : "764976138ed0bea4",
+        "parentUid" : "62e865ae81cb658b6d908f9206470336",
+        "status" : "passed",
+        "time" : {
+          "start" : 1579505569199,
+          "stop" : 1579505569201,
+          "duration" : 2
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "''", "'delete'", "'delete'", "'/rolePermissions/1.0.0/6'" ]
+      }, {
+        "name" : "接口测试数据-{\"user\":1}",
+        "uid" : "85a63a63f83d0cc7",
+        "parentUid" : "62e865ae81cb658b6d908f9206470336",
+        "status" : "passed",
+        "time" : {
+          "start" : 1579505569118,
+          "stop" : 1579505569120,
+          "duration" : 2
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'{\"user\":1}'", "'get'", "'get'", "'/getuser'" ]
+      }, {
+        "name" : "接口测试数据-{\"user\":2}",
+        "uid" : "b93361fe3fb7b602",
+        "parentUid" : "62e865ae81cb658b6d908f9206470336",
+        "status" : "failed",
+        "time" : {
+          "start" : 1579505569131,
+          "stop" : 1579505569134,
+          "duration" : 3
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'{\"user\":2}'", "'get'", "'post'", "'/getuser'" ]
+      } ],
+      "uid" : "62e865ae81cb658b6d908f9206470336"
+    } ],
+    "uid" : "f9f00c543825de6c463df766404ff8e1"
+  } ]
+}

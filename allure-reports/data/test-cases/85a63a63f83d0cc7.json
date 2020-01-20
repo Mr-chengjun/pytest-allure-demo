@@ -1,0 +1,129 @@
+{
+  "uid" : "85a63a63f83d0cc7",
+  "name" : "接口测试数据-{\"user\":1}",
+  "fullName" : "test_case.test_api.TestInterface#test_api",
+  "historyId" : "9725f44d51264001548d81c563a8565d",
+  "time" : {
+    "start" : 1579505569118,
+    "stop" : 1579505569120,
+    "duration" : 2
+  },
+  "description" : "用例描述：接口功能测试",
+  "descriptionHtml" : "<p>用例描述：接口功能测试</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "login",
+    "time" : {
+      "start" : 1579505569116,
+      "stop" : 1579505569116,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "headers",
+    "time" : {
+      "start" : 1579505569117,
+      "stop" : 1579505569117,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "description" : "用例描述：接口功能测试",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "9e3d0c8737839c81",
+      "name" : "{\"user\":1}",
+      "source" : "9e3d0c8737839c81.attach",
+      "type" : "text/plain",
+      "size" : 12
+    }, {
+      "uid" : "9a85549b162611a6",
+      "name" : "stdout",
+      "source" : "9a85549b162611a6.txt",
+      "type" : "text/plain",
+      "size" : 179
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "接口测试函数"
+  }, {
+    "name" : "feature",
+    "value" : "接口测试"
+  }, {
+    "name" : "parentSuite",
+    "value" : "test_case"
+  }, {
+    "name" : "suite",
+    "value" : "test_api"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestInterface"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-SIU8DJJ"
+  }, {
+    "name" : "thread",
+    "value" : "9632-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_case.test_api"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "data",
+    "value" : "'{\"user\":1}'"
+  }, {
+    "name" : "expect",
+    "value" : "'get'"
+  }, {
+    "name" : "methods",
+    "value" : "'get'"
+  }, {
+    "name" : "url",
+    "value" : "'/getuser'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "85a63a63f83d0cc7.json",
+  "parameterValues" : [ "'{\"user\":1}'", "'get'", "'get'", "'/getuser'" ]
+}

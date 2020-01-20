@@ -1,0 +1,67 @@
+[ {
+  "values" : [ "=1.8.0" ],
+  "name" : "pytest-metadata"
+}, {
+  "values" : [ "=1.14.0" ],
+  "name" : "six"
+}, {
+  "values" : [ "=5.3.2" ],
+  "name" : "pytest"
+}, {
+  "values" : [ "=0.13.1" ],
+  "name" : "pluggy"
+}, {
+  "values" : [ "=8.1.0" ],
+  "name" : "more-itertools"
+}, {
+  "values" : [ "=1.3.0" ],
+  "name" : "atomicwrites"
+}, {
+  "values" : [ "=0.1.8" ],
+  "name" : "wcwidth"
+}, {
+  "values" : [ "=1.8.1" ],
+  "name" : "py"
+}, {
+  "values" : [ "=20.0" ],
+  "name" : "packaging"
+}, {
+  "values" : [ "=2.22.0" ],
+  "name" : "requests"
+}, {
+  "values" : [ "=2.8.6" ],
+  "name" : "allure-pytest"
+}, {
+  "values" : [ "=1.4.0" ],
+  "name" : "importlib-metadata"
+}, {
+  "values" : [ "=19.3.0" ],
+  "name" : "attrs"
+}, {
+  "values" : [ "=3.0.4" ],
+  "name" : "chardet"
+}, {
+  "values" : [ "=1.0.0" ],
+  "name" : "zipp"
+}, {
+  "values" : [ "=0.4.3" ],
+  "name" : "colorama"
+}, {
+  "values" : [ "=2019.11.28" ],
+  "name" : "certifi"
+}, {
+  "values" : [ "=2.8.6" ],
+  "name" : "allure-python-commons"
+}, {
+  "values" : [ "=2.0.1" ],
+  "name" : "pytest-html"
+}, {
+  "values" : [ "=1.25.7" ],
+  "name" : "urllib3"
+}, {
+  "values" : [ "=2.4.6" ],
+  "name" : "pyparsing"
+}, {
+  "values" : [ "=2.8" ],
+  "name" : "idna"
+} ]

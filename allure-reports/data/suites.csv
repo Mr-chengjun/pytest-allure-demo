@@ -1,0 +1,4 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"failed","Mon Jan 20 15:32:49 CST 2020","Mon Jan 20 15:32:49 CST 2020","3","test_case","test_api","TestInterface","","","接口测试数据-{""user"":2}","用例描述：接口功能测试"
+"passed","Mon Jan 20 15:32:49 CST 2020","Mon Jan 20 15:32:49 CST 2020","2","test_case","test_api","TestInterface","","","接口测试数据-{""user"":1}","用例描述：接口功能测试"
+"passed","Mon Jan 20 15:32:49 CST 2020","Mon Jan 20 15:32:49 CST 2020","2","test_case","test_api","TestInterface","","","接口测试数据-","用例描述：接口功能测试"

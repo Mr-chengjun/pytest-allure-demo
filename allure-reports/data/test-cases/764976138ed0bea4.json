@@ -1,0 +1,129 @@
+{
+  "uid" : "764976138ed0bea4",
+  "name" : "接口测试数据-",
+  "fullName" : "test_case.test_api.TestInterface#test_api",
+  "historyId" : "64e1700204e1dece023b1d170b458949",
+  "time" : {
+    "start" : 1579505569199,
+    "stop" : 1579505569201,
+    "duration" : 2
+  },
+  "description" : "用例描述：接口功能测试",
+  "descriptionHtml" : "<p>用例描述：接口功能测试</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "login",
+    "time" : {
+      "start" : 1579505569116,
+      "stop" : 1579505569116,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "headers",
+    "time" : {
+      "start" : 1579505569198,
+      "stop" : 1579505569199,
+      "duration" : 1
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "description" : "用例描述：接口功能测试",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "551f116787dd07d9",
+      "name" : "删除请求",
+      "source" : "551f116787dd07d9.attach",
+      "type" : "text/plain",
+      "size" : 12
+    }, {
+      "uid" : "60ff1fc16593a1e4",
+      "name" : "stdout",
+      "source" : "60ff1fc16593a1e4.txt",
+      "type" : "text/plain",
+      "size" : 194
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "接口测试函数"
+  }, {
+    "name" : "feature",
+    "value" : "接口测试"
+  }, {
+    "name" : "parentSuite",
+    "value" : "test_case"
+  }, {
+    "name" : "suite",
+    "value" : "test_api"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestInterface"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-SIU8DJJ"
+  }, {
+    "name" : "thread",
+    "value" : "9632-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_case.test_api"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "data",
+    "value" : "''"
+  }, {
+    "name" : "expect",
+    "value" : "'delete'"
+  }, {
+    "name" : "methods",
+    "value" : "'delete'"
+  }, {
+    "name" : "url",
+    "value" : "'/rolePermissions/1.0.0/6'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "764976138ed0bea4.json",
+  "parameterValues" : [ "''", "'delete'", "'delete'", "'/rolePermissions/1.0.0/6'" ]
+}

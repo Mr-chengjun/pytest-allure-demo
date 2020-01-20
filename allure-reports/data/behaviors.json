@@ -1,0 +1,52 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "name" : "behaviors",
+  "children" : [ {
+    "name" : "接口测试",
+    "children" : [ {
+      "name" : "接口测试函数",
+      "children" : [ {
+        "name" : "接口测试数据-{\"user\":1}",
+        "uid" : "85a63a63f83d0cc7",
+        "parentUid" : "cc319034b7ca859f25047de592b92e2e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1579505569118,
+          "stop" : 1579505569120,
+          "duration" : 2
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'{\"user\":1}'", "'get'", "'get'", "'/getuser'" ]
+      }, {
+        "name" : "接口测试数据-{\"user\":2}",
+        "uid" : "b93361fe3fb7b602",
+        "parentUid" : "cc319034b7ca859f25047de592b92e2e",
+        "status" : "failed",
+        "time" : {
+          "start" : 1579505569131,
+          "stop" : 1579505569134,
+          "duration" : 3
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'{\"user\":2}'", "'get'", "'post'", "'/getuser'" ]
+      }, {
+        "name" : "接口测试数据-",
+        "uid" : "764976138ed0bea4",
+        "parentUid" : "cc319034b7ca859f25047de592b92e2e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1579505569199,
+          "stop" : 1579505569201,
+          "duration" : 2
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "''", "'delete'", "'delete'", "'/rolePermissions/1.0.0/6'" ]
+      } ],
+      "uid" : "cc319034b7ca859f25047de592b92e2e"
+    } ],
+    "uid" : "ce178cef23c7fa199b074d5b9b0fe0c4"
+  } ]
+}
